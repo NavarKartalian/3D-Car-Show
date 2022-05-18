@@ -4,7 +4,7 @@
 
 ---
 
-![GIF](https://i.imgur.com/3qGpDjp.gif)
+![Car](./public/Design/car.png)
 
 # Be Welcome! <img src='https://i.pinimg.com/originals/40/43/38/404338369637686522f6377974b7b78d.gif' width='48' height='48' align=center />
 
