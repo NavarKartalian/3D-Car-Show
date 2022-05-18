@@ -1,34 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align='center'>Car show</h1>
 
-## Getting Started
+  <img src="https://img.shields.io/badge/React-18.1.0-brightgreen?style=for-the-badge&logo=React" /> <img src="https://img.shields.io/badge/Three.js-^0.139.2-lightgrey?style=for-the-badge&logo=three.js" /> <img src="https://img.shields.io/badge/Next.js-12.1.6-blue?style=for-the-badge&logo=Next.js" /> <img src="https://img.shields.io/badge/R3F-^8.0.17-blueviolet?style=for-the-badge&logo=three.js" />
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+![GIF](https://i.imgur.com/3qGpDjp.gif)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Be Welcome! <img src='https://i.pinimg.com/originals/40/43/38/404338369637686522f6377974b7b78d.gif' width='48' height='48' align=center />
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+This Three.js project is part of [Irradiance](https://www.youtube.com/channel/UCukLEV5DSK_n2ut1JZi1MAA) Three.js tutorials. They are being really useful in my process of learning Three.js and are very well done, so if you are starting, I highly recommend checking it out.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+You can check the live version here: [Deploy](https://car-show.vercel.app/)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+---
 
-## Learn More
+## Todo
+- [ ] Better Menu component
+- [ ] Better Loading component 
+- [ ] Scale performance 
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Tutorials, examples and more...
+  
+## A list of some useful sources:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [Irradiance](https://www.youtube.com/channel/UCukLEV5DSK_n2ut1JZi1MAA) - Amazing tutorials to get started in both three.js and react-three-fiber!
+- [Devving It With Sohail](https://www.youtube.com/watch?v=y5CAuAZ7kKM&list=PLIRTsuB0iPJvxaYyg8MOrjffPPcYnccL0) - A great tutorial if you are beginning  in three.js.
+- [R3F Examples](https://docs.pmnd.rs/react-three-fiber/getting-started/examples) - A collection of amazing react-three-fiber creations, that are really useful!
+- [Three.JS Reddit](https://www.reddit.com/r/threejs/) - A nice place to ask for help if you are stuck with some problem.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Fundamentals
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Some reading material:
+
+- [Threejs-docs](https://threejs.org/docs)
+- [Threejs-examples](https://threejs.org/examples)
+- [Threejs-fundamentals](https://threejsfundamentals.org)
+- [Discover Threejs](https://discoverthreejs.com)
+- [Do's and don'ts](https://discoverthreejs.com/tips-and-tricks) for performance and best practices
+- [react-three-fiber alligator.io tutorial](https://alligator.io/react/react-with-threejs) by [@dghez\_](https://twitter.com/dghez_)
+
+# React-three-fiber Ecosystem
+
+- [`@react-three/gltfjsx`](https://github.com/pmndrs/gltfjsx) &ndash; turns GLTFs into JSX components
+- [`@react-three/drei`](https://github.com/pmndrs/drei) &ndash; useful helpers for react-three-fiber
+- [`@react-three/postprocessing`](https://github.com/pmndrs/react-postprocessing) &ndash; post-processing effects
+- [`@react-three/flex`](https://github.com/pmndrs/react-three-flex) &ndash; flexbox for react-three-fiber
+- [`@react-three/xr`](https://github.com/pmndrs/react-xr) &ndash; VR/AR controllers and events
+- [`@react-three/cannon`](https://github.com/pmndrs/use-cannon) &ndash; physics based hooks
+- [`@react-three/a11y`](https://github.com/pmndrs/react-three-a11y) &ndash; real a11y for your scene
+- [`zustand`](https://github.com/pmndrs/zustand) &ndash; state management
+- [`react-spring`](https://github.com/pmndrs/react-spring) &ndash; a spring-physics-based animation library
+- [`react-use-gesture`](https://github.com/pmndrs/react-use-gesture) &ndash; mouse/touch gestures
+- [`leva`](https://github.com/pmndrs/leva) &ndash; create GUI controls in seconds
