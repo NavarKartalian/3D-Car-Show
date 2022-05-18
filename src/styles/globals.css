@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #060819;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+}
